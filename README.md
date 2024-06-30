@@ -19,9 +19,15 @@ python sative/scripts/extract_features.py --data data/train_images_0
 ```
 
 ## Train SparseAutoEncoder on features
+```bash
+python sative/scripts/train_sae.py
+```
 
+## Extract Features from Trained Model
+```bash
+python sative/scripts/extract_features.py
+```
 
-## Evaluate Features
 
 
 # Write-Up
