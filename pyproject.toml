@@ -1,0 +1,22 @@
+[project]
+name = "sative"
+description = "Homegrown"
+version = "0.1.0"
+
+dependencies = [
+    "transformers",
+    "torch",
+    "mlx",
+    "pillow",
+    "tyro",
+    "tqdm",
+    "mediapy",
+    "ipykernel",
+    "plotly",
+    "nbformat",
+    "streamlit",
+    "wandb"
+]
+
+[tool.setuptools.packages.find]
+include = ["sative"]
